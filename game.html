@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone paper scissors</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <span id="us">0</span>
+            <span>-</span>
+            <span id="cs">0</span>
+        </div>
+        <div class="flexbox">
+            <div class="b1">
+                <p>You</p>
+                <div id="hi">
+                    <img id="rI" class="g-i" src="./assets/rock-hand.png" alt="" >
+                    <img id="pI" class="g-i" src="./assets/paper-hand.png" alt="" >
+                    <img id="sI" class="g-i" src="./assets/scissors-hand.png" alt="" >
+                </div>
+                <div class="img" id="lId">
+                    <img id="rL" src="./assets/rock-logo.png" class="l" alt="">
+                    <img id="pL" src="./assets/paper-logo.png" class="l" alt="" >
+                    <img id="sL" class="l" src="./assets/scissors-logo.png" alt="" >
+                </div>
+            </div>
+            <div class="vs">
+                <img src="./assets/vs.png" alt="" height="500px">
+            </div>
+            <div id="b2">
+                <p>Comp</p>
+                <div id="comp"></div>
+            </div>
+        </div>
+        <p id="msg"></p>
+        <button>Play Again</button>
+    </div>
+
+    <script src="game.js"></script>  
+</body>
+</html>
